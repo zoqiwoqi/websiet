@@ -1,0 +1,106 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f3f3f3;
+}
+
+/* Navbar Styling */
+.navbar {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo img {
+    height: 40px;
+}
+
+.nav-links {
+    list-style-type: none;
+    display: flex;
+    gap: 20px;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.nav-user {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.user-avatar {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+}
+
+/* Hero Section */
+.hero {
+    text-align: center;
+    padding: 50px;
+    background-color: #ff9900;
+    color: white;
+}
+
+.hero h1 {
+    font-size: 3em;
+    margin-bottom: 20px;
+}
+
+.play-btn {
+    padding: 10px 20px;
+    background-color: white;
+    color: #ff9900;
+    border: none;
+    cursor: pointer;
+    font-size: 1.2em;
+}
+
+.play-btn:hover {
+    background-color: #f0f0f0;
+}
+
+/* Avatar Customization */
+.avatar-page {
+    padding: 20px;
+    text-align: center;
+    background-color: white;
+    margin: 20px;
+}
+
+.avatar-preview img {
+    height: 200px;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+}
+
+.avatar-options {
+    margin-top: 20px;
+}
+
+.avatar-options button {
+    padding: 10px 20px;
+    margin: 5px;
+    cursor: pointer;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #333;
+    color: white;
+}
